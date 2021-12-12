@@ -1,10 +1,9 @@
-
-
 def mergeSort(A):
 
     #if slection sort is applied when length == 4, as base case, all of the list sizes
     #will be length 4 and therefore the same, so it will only work for lists, that can be evenly divided by two
     #and therefore lists of length 2^n
+
 
     if len(A)<4:
         raise Exception("The inputted length was not 2^n")
@@ -55,17 +54,13 @@ list1 = [5,7,8,6,4,3,32,76]
 list2 = [32,54,76,38,34]
 list3 = [32,54,76,38,34,78,90,99]
 list4 = [32,54,76,38,34,78,90,99,4545,43,567,23414325,123,54,2,45]
-
+list5 = [10,20]
 
 print (mergeSort(list1))
 #print (mergeSort(list2))
 print (mergeSort(list3))
 print (mergeSort(list4))
 
+
 x=mergeSort(list(range(32)))
-print(x)
-
-
-
-
-
+#print(x)

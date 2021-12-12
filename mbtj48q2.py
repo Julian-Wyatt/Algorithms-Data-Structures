@@ -1,5 +1,3 @@
-
-
 def count_ephemeral(n1,n2,k):
     result = 0
     

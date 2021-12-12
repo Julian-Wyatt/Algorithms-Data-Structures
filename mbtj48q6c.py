@@ -1,5 +1,4 @@
 
-
 def mergeSort(A):
 
     #if slection sort is applied when length <= 4, as base case, all of the list sizes
