@@ -7,4 +7,4 @@ Q2 - Ephemeral Sequences
 Q3 - Evaluating Formula Syntax
 Q4 - Big Oh
 Q5 - Master Theorem
-Q6 - Merge Sorts
+Q6 - Merge Sort & Selection Sort
